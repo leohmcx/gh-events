@@ -4,14 +4,14 @@ on:
     types: 
       - opened # only when it's opened
     branches: # only for these branches
-      - main
+      - master
       - 'dev-*' # dev-new, dev-this-is-new
       - 'feat/**' # feat/new feat/new/button
       # developer-1
   workflow_dispatch: # it allow run the job bellow manually (will appear the button to trigger it.)
   push: # run when you push code.
     branches: # only for these branches
-      - main
+      - master
       - 'dev-*' # dev-new, dev-this-is-new
       - 'feat/**' # feat/new feat/new/button
       # developer-1
